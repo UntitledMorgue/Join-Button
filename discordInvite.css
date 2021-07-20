@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'whitney';
+    src: url('./whitney-light.woff') format('woff');
+  }
+
+.dinvb {
+    width:290px;
+    height:40px;
+    position:relative;
+    border-style:none;
+    background-color: #5ddb85;
+    border-radius:10px;
+    color:white;
+    font-family:whitney;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.dinvb:active {
+    background-color:#4ec975;
+}
+.dinvb:hover {
+    background-color: #4ec975;
+    transition: ease-in 1s;
+}
